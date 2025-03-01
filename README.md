@@ -1,4 +1,4 @@
-Here is the formatted README file for better readability:
+Here is the updated README file with the "train.json" and "test.json" files added to the project structure:
 
 # Command Classification with CNN and GloVe Embeddings
 
@@ -19,6 +19,8 @@ The system takes natural language queries as input and classifies them into appr
 ## Project Structure
 
 - **CMPSC_497_MID_TERM_PROJECT_TEXT_CLASSIFICATION_USING_CNN.ipynb**: Main notebook with detailed annotations of all steps.
+- **train.json**: JSON file containing the training dataset.
+- **test.json**: JSON file containing the test dataset.
 
 ## Model Architecture
 
