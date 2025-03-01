@@ -1,4 +1,6 @@
-Here is the updated README file with the "train.json" and "test.json" files added to the project structure:
+I was able to retrieve the README file, but there were issues retrieving the `learning_curves.png` and `confusion_matrix.png` images. Please ensure these images are available in the repository.
+
+Here is the updated README with the "Result Visualization" section:
 
 # Command Classification with CNN and GloVe Embeddings
 
@@ -129,7 +131,13 @@ Our experiments revealed:
 - Training converges quickly (5-7 epochs) with minimal overfitting.
 - Commands with similar functionality show expected confusion patterns in the confusion matrix.
 
-We found that reducing model complexity through proper filter size selection was more effective than increasing complexity. This suggests that for command classification tasks, capturing the right n-gram patterns is more crucial than having a broader range of filter sizes.
+## Result Visualization
+
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+### Learning Curves
+![Learning Curves](learning_curves.png)
 
 ## Authors
 
