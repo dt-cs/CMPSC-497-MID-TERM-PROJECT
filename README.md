@@ -64,7 +64,9 @@ Our experiments showed that combining multiple regularization techniques yielded
 
 This configuration achieves an optimal balance between model complexity and generalization ability, with only ~2% difference between training and test accuracy.
 
-Word Embeddings and Fine-tuning
+
+## Word Embeddings and Fine-tuning
+
 We use pre-trained GloVe embeddings but importantly keep fine-tuning enabled to allow the embeddings to adapt to Rhino-specific semantic relationships:
 
 ```python
@@ -76,9 +78,9 @@ if embedding_matrix is not None:
 
 This approach gives us the best of both worlds:
 
-Starting with rich semantic representations from general-domain text
-Adapting these representations for CAD-specific terminology like "extrude", "surface", "curve", etc.
-Improving recognition of domain-specific relationships between concepts in Rhino 3D
+- Starting with rich semantic representations from general-domain text.
+- Adapting these representations for CAD-specific terminology like "extrude", "surface", "curve", etc.
+- Improving recognition of domain-specific relationships between concepts in Rhino 3D.
 
 ## Performance
 
