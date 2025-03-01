@@ -1,7 +1,3 @@
-I was able to retrieve the README file, but there were issues retrieving the `learning_curves.png` and `confusion_matrix.png` images. Please ensure these images are available in the repository.
-
-Here is the updated README with the "Result Visualization" section:
-
 # Command Classification with CNN and GloVe Embeddings
 
 This project implements a Convolutional Neural Network (CNN) model for classifying natural language queries into command categories. It uses pre-trained GloVe word embeddings for text representation.
