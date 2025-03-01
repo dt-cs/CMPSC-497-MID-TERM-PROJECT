@@ -131,7 +131,7 @@ We found that reducing model complexity through proper filter size selection was
 
 ## Authors
 
-- [Your Name](https://github.com/dt-cs)
+- [Deebak Tamilmani](https://github.com/dt-cs)
 
 ## License
 
